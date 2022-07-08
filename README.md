@@ -2,6 +2,8 @@
 
 Kills Adobe's pesky background apps and more!
 ## Table of Contents <!-- omit in toc -->
+
+- [v1.2.0_pre.1 Changelog](#v120_pre1-changelog)
 - [v1.1.3 Changelog](#v113-changelog)
 - [Instructions](#instructions)
 - [Menu Options](#menu-options)
@@ -10,7 +12,23 @@ Kills Adobe's pesky background apps and more!
 - [Known Issues](#known-issues)
 - [Disclaimer/Notice](#disclaimernotice)
 
-**Current Version (stable):** v1.1.3
+**Stable Version:** v1.1.3
+
+**Current Version (pre-release):** v1.2.0
+
+## v1.2.0_pre.1 Changelog
+
+- UI Change
+  - Added submenus and changed inputs
+- Combined Credit Card Stop module and ServiceBlock module
+  - Thanks to [@shdevnull](https://github.com/shdevnull) for ServiceBlock module
+  - Adds Adobe IPs to hosts file and blocks Adobe Desktop Service in firewall
+- Added DisableAutoStart, HideCCFolder, BlockProcesses, and HideTrialBanner modules
+  - Thanks to [@ItsProfessional](https://github.com/ItsProfessional) for all these modules
+- Bug Fixes and Improvements
+  - Again, big thanks to contributors mentioned above for helping!
+- Documentation Update (this readme won't reflect changes, go to the development branch for full updated documentation)
+###### Download 1.2.0_pre.1 [here](https://github.com/eaaasun/CCStopper/releases/tag/v1.2.0_pre.1)
 
 ## v1.1.3 Changelog
 

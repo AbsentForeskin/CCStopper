@@ -17,7 +17,6 @@ echo                   _________________________________________________________
 echo                  ^|                                                               ^| 
 echo                  ^|                                                               ^|
 echo                  ^|                            CCSTOPPER                          ^|
-echo                  ^|                         Made by eaaasun                       ^|
 echo                  ^|                    Credit Card Trial Remover                  ^|
 echo                  ^|      ___________________________________________________      ^|
 echo                  ^|                                                               ^|
@@ -30,11 +29,11 @@ echo                  ^|                                                        
 echo                  ^|      [2] Reset firewall rule                                  ^|
 echo                  ^|      ___________________________________________________      ^|
 echo                  ^|                                                               ^|
-echo                  ^|      [3] Exit                                                 ^|
+echo                  ^|      [Q] Exit                                                 ^|
 echo                  ^|_______________________________________________________________^|
 echo:
 echo:          
-choice /C:123 /N /M ">                                     Select [1,2,3]: "
+choice /C:12Q /N /M ">                                     Select [1, 2, Q]: "
 
 if errorlevel  3 (
 	goto exit
@@ -83,7 +82,6 @@ echo                   _________________________________________________________
 echo                  ^|                                                               ^| 
 echo                  ^|                                                               ^|
 echo                  ^|                            CCSTOPPER                          ^|
-echo                  ^|                         Made by eaaasun                       ^|
 echo                  ^|                    Credit Card Trial Remover                  ^|
 echo                  ^|      ___________________________________________________      ^|
 echo                  ^|                                                               ^|
@@ -94,11 +92,11 @@ echo                  ^|      one does nothing. If this patch doesn't work,     
 echo                  ^|      please open an issue in the Github repo.                 ^|
 echo                  ^|      ___________________________________________________      ^|
 echo                  ^|                                                               ^|
-echo                  ^|      [1] Go back                                              ^|
+echo                  ^|      [Q] Go back                                              ^|
 echo                  ^|_______________________________________________________________^|
 echo:
 echo:          
-choice /C:1 /N /M ">                                     Select [1]: "
+choice /C:Q /N /M ">                                     Select [Q]: "
 
 if errorlevel 1 (
 	goto menu
